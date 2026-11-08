@@ -1,35 +1,36 @@
 
-name: generate snake animation
+<div align="center">
 
-on:
-  schedule:
-    - cron: "0 */24 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
+# hey, i'm cagin 👋
 
-permissions:
-  contents: write
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=F97316&center=true&vCenter=true&width=435&lines=welcome+to+my+github;always+learning+something+new;building+things+with+code" />
 
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
+<br/>
 
-    steps:
-      - name: generate snake
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+i enjoy programming, solving problems, and exploring new ideas.
 
-      - name: push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+<br/><br/>
+
+### languages & tools
+
+<img src="https://skillicons.dev/icons?i=c,python,java,cs,git,github,vscode,linux&theme=dark" />
+
+<br/><br/>
+
+### github stats
+
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" />
+
+<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=github_dark&hide_border=true" />
+
+<br/><br/>
+
+<img width="60%" src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=github-dark-blue&hide_border=true" />
+
+<br/><br/>
+
+---
+
+<sub>keep building, keep learning.</sub>
+
+</div>
