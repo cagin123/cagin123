@@ -11,6 +11,10 @@ i enjoy programming, solving problems, and exploring new ideas.
 
 <img src="https://skillicons.dev/icons?i=c,python,java,cs,git,github,vscode,linux&theme=dark" />
 
+<div align="center">
+  <img src="./math-animation.svg" width="100%" alt="Animated mathematical equations"/>
+</div>
+
 ### github stats
 
 <img height="150" src="https://github-readme-stats.vercel.app/api?username=cagin123&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" />
